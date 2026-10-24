@@ -1,0 +1,17 @@
+{
+  "name": "pengwh-blog-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PENGWH responsive personal blog with standalone Markdown article routes, frosted navigation and Twikoo comments",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs",
+    "build": "npm run check && node scripts/build.mjs"
+  },
+  "dependencies": {
+    "twikoo-vercel": "2.0.15"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
